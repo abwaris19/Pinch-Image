@@ -9,7 +9,16 @@ import SwiftUI
 
 struct InfoPanelView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            
+            Image(systemName: "circle.circle")
+                .symbolRenderingMode(.hierarchical)
+                .resizable()
+                .frame(width: 30, height: 30)
+            
+            Spacer()
+        }
     }
 }
 
