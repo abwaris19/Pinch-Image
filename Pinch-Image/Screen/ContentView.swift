@@ -26,7 +26,7 @@ struct ContentView: View {
             ZStack {
                 Color.clear
                 
-                Image("magazine-front-cover")
+                Image("kabulView")
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(10)
