@@ -12,6 +12,7 @@
 		C922A08D2B1E216E00B48393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C922A08C2B1E216E00B48393 /* Assets.xcassets */; };
 		C922A0902B1E216E00B48393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C922A08F2B1E216E00B48393 /* Preview Assets.xcassets */; };
 		C922A0B92B26555300B48393 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C922A0B82B26555300B48393 /* InfoPanelView.swift */; };
+		C9C274E82B2760CF008E3E15 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C274E72B2760CE008E3E15 /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C922A08C2B1E216E00B48393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C922A08F2B1E216E00B48393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C922A0B82B26555300B48393 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		C9C274E72B2760CE008E3E15 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				C922A0882B1E216C00B48393 /* Pinch_ImageApp.swift */,
 				C922A0B82B26555300B48393 /* InfoPanelView.swift */,
+				C9C274E72B2760CE008E3E15 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C274E82B2760CF008E3E15 /* ControlImageView.swift in Sources */,
 				C922A08B2B1E216C00B48393 /* ContentView.swift in Sources */,
 				C922A0892B1E216C00B48393 /* Pinch_ImageApp.swift in Sources */,
 				C922A0B92B26555300B48393 /* InfoPanelView.swift in Sources */,
