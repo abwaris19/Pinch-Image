@@ -114,6 +114,15 @@ struct ContentView: View {
                         
                         Button {
                             
+                            withAnimation(.spring()) {
+                                if imageScale < 5 {
+                                    imageScale += 11
+                                    
+                                    if imageScale > 5 {
+                                        imageScale = 5
+                                    }
+                                }
+                            }
                             
                             
                         } label: {
